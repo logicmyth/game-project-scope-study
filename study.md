@@ -38,7 +38,7 @@ I plan on using a stack.
 -
 -   How you plan to keep your code modular.
 
-I will make my code modular by using the book database and sign in page code as examples. I will program code that is in different modules, like index.js and api.js, but will not make these modules dependent on each other. That way, I can rewire code and test it with more ease.
+I will make my code modular by using the book database and sign in page code as examples. I will program code that is in different modules, like index.js and api.js, but will not make these modules dependent on each other. I will have a model layer that handles data and a view layer that reads from the models. That way, I can refactor code and test it with more ease.
 
 -   What creative spin will you add to your project.
 -
